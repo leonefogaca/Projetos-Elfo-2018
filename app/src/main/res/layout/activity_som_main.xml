@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bacy"
+    android:orientation="vertical"
+    tools:context=".SomMainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/teste_de_sons_no_android"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="sans-serif-condensed" />
+
+
+    <Button
+        android:id="@+id/button_sound1"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape1"
+        android:text="@string/som_um"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/button_sound2"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape2"
+        android:text="@string/som_dois"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/button_sound3"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape3"
+        android:text="@string/som_tr_s"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/button_sound4"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape4"
+        android:text="@string/som_quatro"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/button_sound5"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape5"
+        android:text="@string/som_cinco"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/button_sound6"
+        android:onClick="playSound"
+        android:background="@drawable/buttonshape6"
+        android:text="@string/som_seis"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:shadowColor="#A82B0C"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/yin_2"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="@string/sistema_elfo_de_inform_tica"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="sans-serif-condensed" />
+    </RelativeLayout>
+
+
+</LinearLayout>

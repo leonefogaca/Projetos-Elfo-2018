@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Som Elfo</string>
+
+    <string name="hello_world_som">Sistema ELFO de Informática!</string>
+    <string name="hello_som">Edmar Luiz Leone Fogaça</string>
+    <string name="world_som">Cruz Alta - RS - Brasil</string>
+    <string name="action_settings_som">SoundPool - Android Studio Tutorial</string>
+    <string name="action_som">Coding in Flow</string>
+    <string name="act_som">Android Studio 3.0.1 - AVD Oreo API 26</string>
+    <string name="settings_som">WebSite:https://elfogaca.</string>
+    <string name="set_som">wixsite.com/portifolio-elfo</string>
+    <string name="wor_som">Fogaça´s Home Page</string>
+    <string name="elfo_som">elfo ® 2018</string>
+
+    <string name="about">Sobre (clique aqui)</string>
+
+    <string name="about_body"><![CDATA[
+        Botão de ação flutuante, uma biblioteca by <a href="https://www.youtube.com/channel/UCdVAlmigRIbOnvg6Y_aEb2w">Canal Elfogaca</a>.<br/>
+        <a href=\'https://github.com/leonefogaca/somelfo\'>https://github.com/LeoneFogaca/Som Elfo 1.5</a>
+    ]]></string>
+    <string name="som_um">Som Um</string>
+    <string name="som_cinco">Som Cinco</string>
+    <string name="som_dois">Som Dois</string>
+    <string name="som_tr_s">Som Três</string>
+    <string name="som_quatro">Som Quatro</string>
+    <string name="som_seis">Som Seis</string>
+    <string name="teste_de_sons_no_android">Teste de Sons no Android</string>
+    <string name="sistema_elfo_de_inform_tica">Sistema ELFO de Informática</string>
+
+
+</resources>
